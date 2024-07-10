@@ -4,11 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* head section start */
 .header-content{
 display: flex;
 justify-content:space-between;
-margin:50px 150px ;
+margin:30px 150px ;
+align-items: center;
 }
 .header-container h6{
     font-size: 28px;
@@ -28,6 +29,7 @@ margin:50px 150px ;
     font-size: 14px;
     font-weight: 600;
 }
+/* banner section start */
 .banner{
     background-image: url("./assets/Hero-bg.png");
     max-height:652px;
@@ -35,7 +37,7 @@ margin:50px 150px ;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 70px;
 }
 .banner-content{
     display: flex;
@@ -48,7 +50,7 @@ margin:50px 150px ;
     font-size: 40px;
     font-weight: 800;
 }
-.banner-content p{
+.banner-content .para{
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
@@ -68,3 +70,101 @@ margin:50px 150px ;
     font-size: 14px;
     color:rgb(255, 255, 255);
 }
+/* why web development section */
+.why-container{
+    width: 1140px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 90px;
+    text-align: center;
+}
+.why-content h1{
+    text-align: center;
+    color: rgb(13,19,33);
+    font-size:38px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.why-content p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 20px;
+}
+.why-subcontent{
+    padding: 43px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: white;
+    border-radius: 16px;
+    align-items: center;
+    margin-top: 43px;
+}
+.why-subcontent h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px; 
+    font-weight: 700;
+    line-height: 36px ;
+    text-align: left;
+
+}
+.why-subcontent p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 20px; 
+    text-align: left;
+    margin-top: 12px;
+}
+.why-btn{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 8px 26px; 
+    margin-top: 29px;
+    background-color: white;  
+}
+.why-btn a{
+    text-decoration: none;
+    color:rgb(13, 19, 33) ;
+    font-weight: 600;
+    font-size: 14px;
+}
+/* my inspiration start */
+.inspiration-container{
+    width: 1140px;
+    margin: 0 auto;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 70px;
+}
+.inspiration-title{
+    text-align: center;
+    color: rgb(13,19,33);
+    font-size:38px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 19px;
+}
+.inspiration-para{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 20px;
+    margin-bottom: 43px;
+
+}
+.inspiration-content{
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+width: 1140px;
+margin: 0 auto;
+padding: 27px;
+height: 550px;
+}
+.inspiration-iframe{
+    border-radius: 16px;
+}
+
