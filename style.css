@@ -167,4 +167,106 @@ height: 550px;
 .inspiration-iframe{
     border-radius: 16px;
 }
-
+/* current target section */
+.current-container{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 70px; 
+    text-align: center; 
+}
+.current-content{
+    width:1140px;
+    display: flex;
+}
+.html-content{
+width: 364px;
+height: 300px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+padding: 35px;
+text-align: left;
+margin: 0;
+}
+.current-title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+text-align: left;
+margin-top: 18px;
+margin-bottom: 8px;
+}
+.html-content a{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin-top:18px;
+}
+.css-content{
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-left: 21px;
+    padding: 35px;
+    text-align: left;
+    }
+    .current-title2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    }
+    .css-content a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-top:18px;
+    }
+    .js-content{
+        width: 364px;
+        height: 300px;
+        border-radius: 16px;
+        background: rgba(255, 223, 0, 0.05);
+        margin-left: 21px;
+        padding: 35px;
+        text-align: left;
+    
+        }
+        .current-title3{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 36px;
+        text-align: left;
+        margin-top: 18px;
+        margin-bottom: 8px;
+        }
+        .js-content a{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+        margin-top:18px;
+        }
+            
